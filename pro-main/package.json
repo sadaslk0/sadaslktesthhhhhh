@@ -1,0 +1,17 @@
+{
+  "name": "nadeen-movie-api",
+  "version": "1.0.0",
+  "description": "MovieBox Scraper API by Nadeen Poorna",
+  "main": "api/search.js",
+  "scripts": {
+    "start": "node api/search.js",
+    "dev": "vercel dev"
+  },
+  "author": "Nadeen Poorna",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  }
+}

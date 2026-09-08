@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/search",
+      "destination": "/api/search.js"
+    },
+    {
+      "source": "/info",
+      "destination": "/api/info.js"
+    },
+    {
+      "source": "/tv",
+      "destination": "/api/tv.js"
+    }
+  ]
+}
